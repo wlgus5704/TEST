@@ -16,8 +16,8 @@
             position: relative;
             z-index: 1;
             opacity: 1;
-            overflow: hidden;
             transition: opacity 0.6s ease; 
+            overflow: hidden;
         }
         .con1{
             margin-top: 106px;
@@ -46,8 +46,9 @@
        }
        .con2>#rito{
             position: absolute;
-            right: -140px;
+            right: -150px;
             top: 430px;
+            transform: rotate(45deg);
        }
        
        .nextpage{
@@ -81,7 +82,7 @@
             };
 
             function moveRito() {
-                rito.style.transform = 'translateX(-140px)'; 
+                rito.style.transform = 'translateX(-150px)'; 
                 rito.style.transition = 'all 0.6s'
 
                 p.style.opacity = 1; 
